@@ -112,6 +112,6 @@ module.exports = async function handler(req, res) {
     return res.status(200).json({ success: true, message: 'Your message has been sent! We will be in touch shortly.' });
   } catch (error) {
     console.error('Email send error:', error);
-    return res.status(500).json({ error: 'Failed to send email. Please try again.', detail: error.message });
+    return res.status(500).json({ error: 'Failed to send email. Please try again.' });
   }
 }

@@ -1889,7 +1889,7 @@
         document.getElementById('form-fields').style.display = 'none';
         document.getElementById('form-success').style.display = 'block';
       } else {
-        showError((data.error || 'Something went wrong.') + (data.detail ? ' — ' + data.detail : ''));
+        showError(data.error || 'Something went wrong. Please try again.');
         btn.disabled = false;
         btn.textContent = 'Book Free Consultation →';
       }
