@@ -1,0 +1,8 @@
+{
+  "name": "imagine-technologies",
+  "version": "1.0.0",
+  "description": "Imagine Technologies website with contact form backend",
+  "dependencies": {
+    "nodemailer": "^6.9.9"
+  }
+}
